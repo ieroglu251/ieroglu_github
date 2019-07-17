@@ -78,7 +78,7 @@ components package. All functional and component test classes must be created
 under the package matching their component.
 Automate the following login related tests in new class LoginTest.
 TEST CASE: Login test (positive)
-1. Login to Vytrack as a store manager
+===> 1. Login to Vytrack as a store manager
 2. Verify name of the store manager is displayed on top right
 3. Verify Dashboad page is open
 4. Log out
