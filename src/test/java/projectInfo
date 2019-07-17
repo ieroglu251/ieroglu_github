@@ -5,3 +5,109 @@ Storemanager:
 storemanager207 , storemanager208 , storemanager209	                            "UserUser123"
 SalesManager:
 salesmanager270 , salesmanager271                                             	"UserUser123"
+
+========================================================================================================================
+VYTRACK PART I
+Description
+This is part of the series of homework assignments which involve only one
+project. You will create one project in this 1st assignment and use it as your
+testing framework for upcoming homework assignments. Future assignments
+will be about adding new test cases, updating the existing test cases, maintaining
+and updating the testing framework.
+Project set up
+------------------------------------------------------------------------------------------------------------------------
+1. Create a maven project. Use group-id com.vytrack and artifact-id vytrackautomation.
+Add all the required dependencies.
+2. Under src/test/java create following packages:
+a. com.vytrack.utilities
+b. com.vytrack.tests.components
+c. com.vytrack.tests.smoke_tests
+d. com.vytrack.tests.regression_tests
+3. Under com.vytrack.tests.components create following packages:
+a. login_navigation
+b. dashboards
+c. fleet
+d. customers
+e. sales
+f. activities
+g. marketing
+h. reports_and_segments
+i. system
+NOTE: This picture shows what packages you should have up completion of steps 2 and 3.
+www.cybertekschool.com support@cybertekschool.com
+------------------------------------------------------------------------------------------------------------------------
+2
+Smoke tests
+Automate the following smoke test scenarios under the smoke_tests package.
+Create a new MenuOptionsTest class. Use TestNG.
+NOTE: Some steps says (updated) at the end. It means these steps have been updated or corrected.
+TEST CASE: Menu options, driver
+1. Login to Vytrack as a driver
+2. Navigate to Fleet à Vehicles, verify page title Car - Entities - System - Car - Entities -
+System, page name All Cars (updated)
+
+3. Navigate to Customers à Accounts, verify page title Accounts - Customers, verify page
+name Accounts
+4. Navigate to Customers à Contacts, verify page title Contacts - Customers, verify page name
+Contacts (updated)
+ 5. Navigate to Activities à Calendar Events, verify page title Calendar Events - Activities, page
+name Calendar Events
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+TEST CASE: Menu options, store manager
+1. Login to Vytrack as a store manager
+2. Navigate to Dashboards à Dashboard, verify page title Dashboard - Dashboards, verify
+page name Dashboard
+3. Navigate to Fleet à Vehicles, verify page title All - Car - Entities - System - Car - Entities -
+System, page name All Cars (updated)
+4. Navigate to Customers à Accounts, verify page title All - Accounts – Customers, verify
+page name All Accounts(updated)
+5. Navigate to Customers à Contacts, verify page title All - Contacts - Customers, verify page
+name All Contacts (updated)
+6. Navigate to Sales à Opportunities, verify page title Open Opportunities - Opportunities -
+Sales, verify page name Open Opportunities
+7. Navigate to Activities à Calls verify page title All - Calls - Activities, page name All Calls
+(updated)
+8. Navigate to Activities à Calendar Events, verify page title Calendar Events - Activities, page
+name All Calendar Events (updated)
+www.cybertekschool.com support@cybertekschool.com
+------------------------------------------------------------------------------------------------------------------------
+3
+Component tests
+Automate the following functional and component test scenarios under the
+components package. All functional and component test classes must be created
+under the package matching their component.
+Automate the following login related tests in new class LoginTest.
+TEST CASE: Login test (positive)
+1. Login to Vytrack as a store manager
+2. Verify name of the store manager is displayed on top right
+3. Verify Dashboad page is open
+4. Log out
+5. Login to Vytrack as a sales manager
+6. Verify Dashboad page is open
+7. A different name should be displayed on top right
+8. Log out
+9. Login to Vytrack as a driver
+10. Verify Dashboad/Quick Launchpad page is open
+11. A different name should be displayed on top right
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+TEST CASE: Login test (negative)
+1. Open Vytrack login page
+2. Enter valid username and invalid password information
+3. Click login
+4. Message Invalid user name or password. should be displayed
+5. Page title and url should be same
+Automate the following page visibility and navigation related tests in new class
+PageAccessTest.
+TEST CASE: Vehicle contracts test store manager
+1. Login to Vytrack as a store manager
+2. Verify that you can access Vehicle contracts page
+www.cybertekschool.com support@cybertekschool.com
+------------------------------------------------------------------------------------------------------------------------
+4
+TEST CASE: Vehicle contracts test store manager
+1. Login to Vytrack as a sales manager
+2. Verify that you can access Vehicle contracts page
+TEST CASE: Vehicle contracts test store manager
+1. Login to Vytrack as a driver
+2. Verify that you cannot access Vehicle contracts page
+3. Message You do not have permission to perform this action. should be displayed

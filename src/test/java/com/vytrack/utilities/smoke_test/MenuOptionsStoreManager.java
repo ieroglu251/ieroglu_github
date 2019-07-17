@@ -4,6 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -30,8 +32,11 @@ public class MenuOptionsStoreManager {
 
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[1]/a/span")).click();
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[1]/div/div/ul/li[3]/a")).click();
-        MyWaitTime.wait(2);
-        System.out.println( driver.getTitle());
+
+        MyWaitTime.wait(5);
+        String ActualResult =driver.getTitle();
+        String ExpectedResult = "Dashboard - Dashboards";
+        Assert.assertTrue(ExpectedResult.equals(ActualResult));
 
 
     }
@@ -42,8 +47,12 @@ public class MenuOptionsStoreManager {
 
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[2]/a/span")).click();
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[2]/div/div/ul/li[3]/a/span")).click();
-        MyWaitTime.wait(2);
-        System.out.println( driver.getTitle());
+
+        MyWaitTime.wait(5);
+        String ActualResult =driver.getTitle();
+        String ExpectedResult = "All - Car - Entities - System - Car - Entities - System";
+        Assert.assertTrue(ExpectedResult.equals(ActualResult));
+
 
     }
 
@@ -54,8 +63,11 @@ public class MenuOptionsStoreManager {
 
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[3]/a/span")).click();
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[3]/div/div/ul/li[3]/a")).click();
-        MyWaitTime.wait(2);
-        System.out.println( driver.getTitle());
+
+        MyWaitTime.wait(5);
+        String ActualResult =driver.getTitle();
+        String ExpectedResult = "All - Accounts – Customers";
+        Assert.assertTrue(ExpectedResult.equals(ActualResult));
 
     }
 
@@ -66,8 +78,11 @@ public class MenuOptionsStoreManager {
 
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[3]/a/span")).click();
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[3]/div/div/ul/li[4]/a")).click();
-        MyWaitTime.wait(2);
-        System.out.println( driver.getTitle());
+
+        MyWaitTime.wait(5);
+        String ActualResult =driver.getTitle();
+        String ExpectedResult = "All - Contacts - Customers";
+        Assert.assertTrue(ExpectedResult.equals(ActualResult));
 
     }
 
@@ -78,8 +93,12 @@ public class MenuOptionsStoreManager {
 
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[4]/a/span")).click();
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[4]/div/div/ul/li[3]/a")).click();
-        MyWaitTime.wait(2);
-        System.out.println( driver.getTitle());
+
+        MyWaitTime.wait(5);
+        String ActualResult =driver.getTitle();
+        String ExpectedResult = "Open Opportunities - Opportunities - Sales";
+        Assert.assertTrue(ExpectedResult.equals(ActualResult));
+
 
     }
 
@@ -90,8 +109,11 @@ public class MenuOptionsStoreManager {
 
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[5]/a/span")).click();
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[5]/div/div/ul/li[3]/a")).click();
-        MyWaitTime.wait(2);
-        System.out.println( driver.getTitle());
+
+        MyWaitTime.wait(5);
+        String ActualResult =driver.getTitle();
+        String ExpectedResult = "All - Calls - Activities";
+        Assert.assertTrue(ExpectedResult.equals(ActualResult));
 
     }
     @Test
@@ -101,8 +123,15 @@ public class MenuOptionsStoreManager {
 
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[5]/a/span")).click();
         driver.findElement(By.xpath("//*[@id=\"main-menu\"]/ul/li[5]/div/div/ul/li[4]/a")).click();
-        MyWaitTime.wait(2);
-        System.out.println( driver.getTitle());
 
+        MyWaitTime.wait(5);
+        String ActualResult =driver.getTitle();
+        String ExpectedResult = "Calendar Events - Activities";
+        Assert.assertTrue(ExpectedResult.equals(ActualResult));
+
+    }
+    @AfterMethod
+    public void tearDown(){
+        driver.quit();
     }
 }

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71590735-e352-4216-ba39-249bbc8a8dd1" name="Default Changelist" comment="" />
+    <list default="true" id="71590735-e352-4216-ba39-249bbc8a8dd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsStoreManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsStoreManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/projectInfo" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/projectInfo" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/projectInfo">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="370">
+              <caret line="69" column="91" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -47,10 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/VytrackUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="238">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,10 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsStoreManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="92" column="11" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
+            <state relative-caret-position="398">
+              <caret line="87" column="63" selection-start-line="84" selection-start-column="7" selection-end-line="87" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,12 +77,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/VytrackUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsStoreManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="2227">
+              <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4500#4501#0" expanded="true" />
+                <element signature="e#4516#4517#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,15 +99,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/projectInfo" />
         <option value="$PROJECT_DIR$/src/test/java/MyWaitTime.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsStoreManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/VytrackUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/projectInfo" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsStoreManager.java" />
       </list>
     </option>
   </component>
@@ -109,15 +120,55 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,6 +181,105 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="TestNG.MenuOptionsTest">
+    <configuration name="MenuOptionsStoreManager" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.utilities.smoke_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.utilities.smoke_test" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.utilities.smoke_test.MenuOptionsStoreManager" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuOptionsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.utilities.smoke_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.utilities.smoke_test" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.utilities.smoke_test.MenuOptionsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuOptionsTest.AccountsPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.utilities.smoke_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.utilities.smoke_test" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.utilities.smoke_test.MenuOptionsTest" />
+      <option name="METHOD_NAME" value="AccountsPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuOptionsTest.ContactsPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.utilities.smoke_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.utilities.smoke_test" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.utilities.smoke_test.MenuOptionsTest" />
+      <option name="METHOD_NAME" value="ContactsPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuOptionsTest.Vehiclestitlepage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.utilities.smoke_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.utilities.smoke_test" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.utilities.smoke_test.MenuOptionsTest" />
+      <option name="METHOD_NAME" value="Vehiclestitlepage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.MenuOptionsTest" />
+        <item itemvalue="TestNG.MenuOptionsStoreManager" />
+        <item itemvalue="TestNG.MenuOptionsTest.AccountsPageTitle" />
+        <item itemvalue="TestNG.MenuOptionsTest.Vehiclestitlepage" />
+        <item itemvalue="TestNG.MenuOptionsTest.ContactsPageTitle" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -144,8 +294,41 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MenuOptionsTest_ContactsPageTitle - 2019.07.17 at 15h 26m 01s.xml">
+      <configuration name="MenuOptionsTest.ContactsPageTitle" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 28m 14s.xml">
+      <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 29m 21s.xml">
+      <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 30m 11s.xml">
+      <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 32m 34s.xml">
+      <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 33m 25s.xml">
+      <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 34m 07s.xml">
+      <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 34m 55s.xml">
+      <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsTest_AccountsPageTitle - 2019.07.17 at 15h 37m 08s.xml">
+      <configuration name="MenuOptionsTest.AccountsPageTitle" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuOptionsStoreManager - 2019.07.17 at 15h 53m 46s.xml">
+      <configuration name="MenuOptionsStoreManager" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -155,11 +338,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -189,23 +373,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsStoreManager.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="92" column="11" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -219,26 +390,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/projectInfo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/VytrackUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="87" column="63" selection-start-line="84" selection-start-column="7" selection-end-line="87" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/projectInfo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="69" column="91" selection-start-line="69" selection-start-column="63" selection-end-line="69" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsStoreManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2227">
+          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4500#4501#0" expanded="true" />
+            <element signature="e#4516#4517#0" expanded="true" />
           </folding>
         </state>
       </provider>
