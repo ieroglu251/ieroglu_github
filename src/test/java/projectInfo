@@ -98,10 +98,11 @@ TEST CASE: Login test (negative)
 5. Page title and url should be same
 Automate the following page visibility and navigation related tests in new class
 PageAccessTest.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 TEST CASE: Vehicle contracts test store manager
 1. Login to Vytrack as a store manager
 2. Verify that you can access Vehicle contracts page
-www.cybertekschool.com support@cybertekschool.com
+
 ------------------------------------------------------------------------------------------------------------------------
 4
 TEST CASE: Vehicle contracts test store manager

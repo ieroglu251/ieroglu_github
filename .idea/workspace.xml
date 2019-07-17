@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71590735-e352-4216-ba39-249bbc8a8dd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/regression_test/PositiveLoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/projectInfo" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/projectInfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/regression_test/PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/regression_test/PositiveLoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/regression_test/PositiveLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+            <state relative-caret-position="585">
+              <caret line="57" column="79" lean-forward="true" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MenuOptionsTest">
+  <component name="RunManager" selected="TestNG.PositiveLoginTest.storeManagerNameDisplayTest">
     <configuration name="MenuOptionsStoreManager" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vytrackautomation" />
       <extension name="coverage">
@@ -248,24 +247,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuOptionsTest.ContactsPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="vytrackautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vytrack.utilities.smoke_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vytrack.utilities.smoke_test" />
-      <option name="MAIN_CLASS_NAME" value="com.vytrack.utilities.smoke_test.MenuOptionsTest" />
-      <option name="METHOD_NAME" value="ContactsPageTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MenuOptionsTest.Vehiclestitlepage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vytrackautomation" />
       <extension name="coverage">
@@ -284,13 +265,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PositiveLoginTest.storeManagerNameDisplayTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vytrack.utilities.regression_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vytrack.utilities.regression_test" />
+      <option name="MAIN_CLASS_NAME" value="com.vytrack.utilities.regression_test.PositiveLoginTest" />
+      <option name="METHOD_NAME" value="storeManagerNameDisplayTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PositiveLoginTest.storeManagerNameDisplayTest" />
         <item itemvalue="TestNG.MenuOptionsTest" />
         <item itemvalue="TestNG.MenuOptionsStoreManager" />
         <item itemvalue="TestNG.MenuOptionsTest.AccountsPageTitle" />
         <item itemvalue="TestNG.MenuOptionsTest.Vehiclestitlepage" />
-        <item itemvalue="TestNG.MenuOptionsTest.ContactsPageTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -308,9 +307,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 29m 21s.xml">
-      <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MenuOptionsTest_Vehiclestitlepage - 2019.07.17 at 15h 30m 11s.xml">
       <configuration name="MenuOptionsTest.Vehiclestitlepage" configurationId="TestNG" />
     </history-entry>
@@ -338,6 +334,9 @@
     <history-entry file="MenuOptionsTest - 2019.07.17 at 15h 58m 42s.xml">
       <configuration name="MenuOptionsTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PositiveLoginTest_storeManagerNameDisplayTest - 2019.07.17 at 17h 38m 50s.xml">
+      <configuration name="PositiveLoginTest.storeManagerNameDisplayTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -348,15 +347,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/regression_test/PositiveLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        <state relative-caret-position="585">
+          <caret line="57" column="79" lean-forward="true" selection-start-line="57" selection-start-column="79" selection-end-line="57" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
