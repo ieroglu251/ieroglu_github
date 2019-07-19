@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71590735-e352-4216-ba39-249bbc8a8dd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Udemy/Log4J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Udemy/Log4j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Brite_ERP/BriteERPUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Brite_ERP/Brite_ERP_Repairs_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Brite_ERP/Brite_ERP_Repairs_Test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,25 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Info">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="425">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -43,8 +32,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            <state relative-caret-position="600">
+              <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/BriteERPUtilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="94" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,13 +80,14 @@
         <option value="$PROJECT_DIR$/src/test/java/Udemy/dataDriven.java" />
         <option value="$PROJECT_DIR$/src/test/java/Udemy/Log4J.java" />
         <option value="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Info" />
+        <option value="$PROJECT_DIR$/src/test/java/Brite_ERP/BriteERPUtilities.java" />
         <option value="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2474" />
-    <option name="y" value="-22" />
+    <option name="x" value="2522" />
+    <option name="y" value="-18" />
     <option name="width" value="1026" />
     <option name="height" value="1047" />
   </component>
@@ -95,7 +97,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,33 +131,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Brite_ERP" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-              <item name="smoke_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dependencies/apache-log4j-2.12.0-bin/apache-log4j-2.12.0-bin/log4j-web-2.12.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dependencies/Selenium/libs/okio-1.14.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -177,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MenuOptionsTest.Vehiclestitlepage">
+  <component name="RunManager" selected="TestNG.Brite_ERP_Repairs_Test.RepairTest">
     <configuration name="dataDriven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Udemy.dataDriven" />
       <module name="vytrackautomation" />
@@ -264,8 +249,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MenuOptionsTest.Vehiclestitlepage" />
         <item itemvalue="TestNG.Brite_ERP_Repairs_Test.RepairTest" />
+        <item itemvalue="TestNG.MenuOptionsTest.Vehiclestitlepage" />
         <item itemvalue="TestNG.Brite_ERP_Repairs_Test" />
         <item itemvalue="TestNG.MenuOptionsStoreManager.DashboardPageTitle" />
         <item itemvalue="Application.dataDriven" />
@@ -286,58 +271,57 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 07h 17m 34s.xml">
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 12m 23s.xml">
       <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 07h 21m 34s.xml">
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 21m 34s.xml">
       <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 07h 22m 57s.xml">
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 22m 17s.xml">
       <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 07h 23m 24s.xml">
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 22m 40s.xml">
       <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 07h 25m 57s.xml">
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 23m 16s.xml">
       <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 07h 29m 15s.xml">
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 24m 31s.xml">
       <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MenuOptionsStoreManager_DashboardPageTitle - 2019.07.19 at 07h 29m 30s.xml">
-      <configuration name="MenuOptionsStoreManager.DashboardPageTitle" configurationId="TestNG" />
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 25m 02s.xml">
+      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MenuOptionsStoreManager_DashboardPageTitle - 2019.07.19 at 09h 02m 17s.xml">
-      <configuration name="MenuOptionsStoreManager.DashboardPageTitle" configurationId="TestNG" />
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 26m 54s.xml">
+      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MenuOptionsStoreManager_DashboardPageTitle - 2019.07.19 at 09h 02m 38s.xml">
-      <configuration name="MenuOptionsStoreManager.DashboardPageTitle" configurationId="TestNG" />
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 38m 48s.xml">
+      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test - 2019.07.19 at 09h 03m 04s.xml">
-      <configuration name="Brite_ERP_Repairs_Test" configurationId="TestNG" />
+    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 12h 48m 48s.xml">
+      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14712153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32827735" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -346,24 +330,13 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.5026652" />
+      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.2585288" />
+      <window_info anchor="right" id="Messages" order="9" weight="0.32782516" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/sil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/components/sill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/sil.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/components/sill.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/VytrackUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -424,39 +397,37 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/Log4j2">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2981#2982#0" expanded="true" />
-            <element signature="e#3010#3011#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MyWaitTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="306">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MenuOptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="425">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/utilities/smoke_test/MyWaitTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -470,10 +441,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/BriteERPUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="94" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="600">
+          <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
