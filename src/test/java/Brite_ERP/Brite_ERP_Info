@@ -1,0 +1,44 @@
+Test cases link :
+https://drive.google.com/drive/u/1/folders/1SP7ClefQ_hpYgKaGXOlx0MP-pwlYsviK
+Environment link :
+ http://34.220.250.213/web/loginUser
+ Credential :
+  https://docs.google.com/spreadsheets/d/1qUEAITnXegEp6FJ75tpYTUq4ECOZDjss-PtPgaeEIfs/edit#gid=0
+
+  Group 31:
+          posmanager
+   POS "posmanager65@info.com                 Password: posmanager
+      posmanager66@info.com
+      posmanager67@info.com
+      posmanager68@info.com
+      posmanager69@info.com"
+
+  Sales     salesmanager
+        "salesmanager75@info.com            Password: salesmanager
+        salesmanager76@info.com
+        salesmanager77@info.com
+        salesmanager78@info.com
+        salesmanager79@info.com"
+
+        Module: CRM.  userName: "eventscrmmanager58@info.com
+                                eventscrmmanager59@info.com"
+
+                     Password: eventscrmmanager
+        Environt:
+        http://34.220.250.213/
+        http://34.220.250.213/
+        http://34.220.250.213/
+        http://34.220.250.213/
+
+
+  Automate 2 test cases per person on Brite_ERP application.
+  Step1 :Find your own group’s test cases with provided link
+  Step2: Select 2 test cases each person
+  Step3:Write your test script(code) on IntelliJ based on selected test cases (Note: you can write your test script in existing project on IntelliJ)
+
+  How to describe project ?
+  → Start with project name
+  → Explain core business (main purpose)of project
+  (Brite_ERP: Companies manage the fundamentals of business  like materials, finance, accounting and many other enterprise features)
+  → Your role and responsibilities on this projectWhat is Testing Tool?
+  It can be software program or utility to help develop, create, perform  or debug a test.
