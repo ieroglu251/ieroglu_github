@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71590735-e352-4216-ba39-249bbc8a8dd1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Brite_ERP/Brite_ERP_Repairs_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Brite_ERP/Brite_ERP_Repairs_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Brite_ERP/CRMmodule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Brite_ERP/CRMmodule.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            <state relative-caret-position="697">
+              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/CRMmodule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Info" />
         <option value="$PROJECT_DIR$/src/test/java/Brite_ERP/BriteERPUtilities.java" />
         <option value="$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Brite_ERP/CRMmodule.java" />
       </list>
     </option>
   </component>
@@ -161,20 +172,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Brite_ERP_Repairs_Test.RepairTest">
-    <configuration name="dataDriven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Udemy.dataDriven" />
-      <module name="vytrackautomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Udemy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CRMmodule.crmModule">
     <configuration name="Brite_ERP_Repairs_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="vytrackautomation" />
       <extension name="coverage">
@@ -203,6 +201,24 @@
       <option name="PACKAGE_NAME" value="Brite_ERP" />
       <option name="MAIN_CLASS_NAME" value="Brite_ERP.Brite_ERP_Repairs_Test" />
       <option name="METHOD_NAME" value="RepairTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CRMmodule.crmModule" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="vytrackautomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Brite_ERP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Brite_ERP" />
+      <option name="MAIN_CLASS_NAME" value="Brite_ERP.CRMmodule" />
+      <option name="METHOD_NAME" value="crmModule" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -248,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CRMmodule.crmModule" />
         <item itemvalue="TestNG.Brite_ERP_Repairs_Test.RepairTest" />
         <item itemvalue="TestNG.MenuOptionsTest.Vehiclestitlepage" />
         <item itemvalue="TestNG.Brite_ERP_Repairs_Test" />
         <item itemvalue="TestNG.MenuOptionsStoreManager.DashboardPageTitle" />
-        <item itemvalue="Application.dataDriven" />
       </list>
     </recent_temporary>
   </component>
@@ -270,35 +286,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 15m 40s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.19 at 23h 59m 54s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 25m 22s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 00m 56s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 25m 57s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 01m 22s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 27m 12s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 01m 44s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 27m 55s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 09m 14s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 28m 34s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 48m 23s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 39m 03s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 49m 07s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 40m 09s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 50m 57s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 41m 15s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 52m 00s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Brite_ERP_Repairs_Test_RepairTest - 2019.07.19 at 23h 42m 44s.xml">
-      <configuration name="Brite_ERP_Repairs_Test.RepairTest" configurationId="TestNG" />
+    <history-entry file="CRMmodule_crmModule - 2019.07.20 at 00h 54m 29s.xml">
+      <configuration name="CRMmodule.crmModule" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -452,8 +468,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/Brite_ERP_Repairs_Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+        <state relative-caret-position="697">
+          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Brite_ERP/CRMmodule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
