@@ -1,0 +1,21 @@
+7/20/2019
+Adenda:
+System properties
+singleton design pattern
+deriver class
+TestBase class
+=========================================================
+System.setProperty("webdriver.chrome.driver", "path");
+setProperty ------>
+####################################################
+Application use properties to maintain configuration.We will use .properties file to configure automation framework.
+configuration.properties ---> it looks simple text file with key-value pair.
+
+browser = chrome==example...
+In that file  (configuration.properties) we will have information ragarding:
+browser (chrome, ie, firefox)
+environment (dev, qa, preprod, prod)
+urls
+credentials
+selenium grid config
+
