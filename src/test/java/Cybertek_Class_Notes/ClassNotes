@@ -19,3 +19,22 @@ urls
 credentials
 selenium grid config
 
+===========================================
+Singloten:
+public class singleton{
+private static singleton object;
+private singleton(){
+
+}
+
+public static singleton getInstance(){
+if(object == null){
+
+object = new singleton():
+}
+return object;
+}
+
+}
+
+based on this concept, we willl create driver class.

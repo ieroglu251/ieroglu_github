@@ -40,7 +40,7 @@ public class SystemPropertyTest {
     }
     @Test
     public void test2(){
-        String expectedUsername = "storemanager";
+        String expectedUsername = "storemaneger85";
         String actualusername = utilities.configurationReader.getProperty("username");
 
         Assert.assertEquals(actualusername,expectedUsername);
