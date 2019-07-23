@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71590735-e352-4216-ba39-249bbc8a8dd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Udemy/BRITELoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Udemy/BRITEhomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Udemy/Udemy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Udemy/base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Udemy/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Udemy/jdbconnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Udemy/RediffLoginpage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Udemy/RediffLoginpage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Udemy/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Udemy/base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Udemy/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Udemy/base.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +24,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="702">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/jdbconnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -51,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="566">
+              <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/BRITEhomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,18 +84,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/BRITELoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="374">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#547#548#0" expanded="true" />
                 <element signature="e#738#739#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,8 +150,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Udemy/BRITELoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Udemy/BRITEhomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Udemy/Udemy.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Udemy/base.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Udemy/jdbconnector.java" />
       </list>
     </option>
   </component>
@@ -167,6 +170,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +208,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Ismail Eroglu/vytrackautomation/src/test/java/Udemy/Udemy.xml">
+  <component name="RunManager" selected="TestNG.BRITEhomePage.basePageNavigation">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Cybertek_Class_Notes.Main" />
       <module name="vytrackautomation" />
@@ -315,8 +318,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Ismail Eroglu/vytrackautomation/src/test/java/Udemy/Udemy.xml" />
         <item itemvalue="TestNG.BRITEhomePage.basePageNavigation" />
+        <item itemvalue="TestNG.C:/Users/Ismail Eroglu/vytrackautomation/src/test/java/Udemy/Udemy.xml" />
         <item itemvalue="TestNG.Loginapplication.Login" />
         <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.SystemPropertyTest.test2" />
@@ -337,15 +340,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BRITEhomePage_basePageNavigation - 2019.07.22 at 10h 16m 37s.xml">
-      <configuration name="BRITEhomePage.basePageNavigation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BRITEhomePage_basePageNavigation - 2019.07.22 at 10h 21m 23s.xml">
-      <configuration name="BRITEhomePage.basePageNavigation" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="BRITEhomePage_basePageNavigation - 2019.07.22 at 10h 25m 57s.xml">
-      <configuration name="BRITEhomePage.basePageNavigation" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BRITEhomePage_basePageNavigation - 2019.07.22 at 10h 27m 16s.xml">
       <configuration name="BRITEhomePage.basePageNavigation" configurationId="TestNG" />
     </history-entry>
@@ -367,12 +361,21 @@
     <history-entry file="C__Users_Ismail_Eroglu_vytrackautomation_src_test_java_Udemy_Udemy_xml - 2019.07.22 at 11h 46m 44s.xml">
       <configuration name="C:/Users/Ismail Eroglu/vytrackautomation/src/test/java/Udemy/Udemy.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="BRITEhomePage_basePageNavigation - 2019.07.22 at 18h 00m 46s.xml">
+      <configuration name="BRITEhomePage.basePageNavigation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BRITEhomePage_basePageNavigation - 2019.07.22 at 18h 24m 35s.xml">
+      <configuration name="BRITEhomePage.basePageNavigation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="BRITEhomePage_basePageNavigation - 2019.07.22 at 18h 25m 34s.xml">
+      <configuration name="BRITEhomePage.basePageNavigation" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,7 +399,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.36034116" />
+      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.36034116" />
       <window_info anchor="right" id="Messages" order="9" weight="0.34221748" />
     </layout>
   </component>
@@ -606,10 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/data.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/xml/SuiteXmlParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -620,10 +623,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/Udemy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/data.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/BRITEhomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -632,50 +659,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/BRITELoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
             <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/Udemy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        <state relative-caret-position="702">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/xml/SuiteXmlParser.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/jdbconnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Udemy/base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
         </state>
       </provider>
     </entry>
